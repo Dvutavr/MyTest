@@ -25,7 +25,7 @@ $( document ).ready(function() {
 	wrapper = new Array();
 	
 	$('.tab-nav .nav-link').click(function(){
-		wrapper = [];		
+			
 		$('.tab-nav').removeClass('active');
 		$(this).parent().addClass('active');
 		dataTab = $(this).attr('data-tab');		
